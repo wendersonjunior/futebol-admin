@@ -8,20 +8,20 @@ function montaJogadores() {
     $('#jogadores').show();
 }
 
-function adicionaRemoveJogador(checkbox){
-    if ($(checkbox).is(":checked")){
+function adicionaRemoveJogador(checkbox) {
+    if ($(checkbox).is(":checked")) {
         jogadoresSelecionados.push(checkbox.id);
     } else {
         jogadoresSelecionados.remove(checkbox.id);
     }
 }
 
-$(".jogadores").click(function () {
+$(".jogadores").click(function() {
     ativaItemMenu('jogadores');
     montaJogadores();
 });
 
-$('#confirma').click(function () {
+$('#confirma').click(function() {
     $('.marcador').removeClass('disabled');
     $('.pagamento').removeClass('disabled');
     montaTabelaMarcacao(jogadoresSelecionados);
@@ -31,3 +31,15 @@ $('#confirma').click(function () {
     montaMarcador();
 });
 
+$('#adicionaNovoJogador').click(function() {
+
+    var valor = $('#nomeJogador').val();
+    var nome = valor.replace(/\s/g, '');
+    $('#nomeJogador').val('');
+
+    $('#todosJogadores').append($('<div>', {
+        class: 'col s6 m4 l4 checkbox',
+        id: nome + '-novo',
+        html: '<label><input id="' + nome + '" type="checkbox" onChange="adicionaRemoveJogador(' + nome + ')"/><span>' + valor + '</span></label>'
+    }));
+})

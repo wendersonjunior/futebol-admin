@@ -5,8 +5,8 @@
     <!-- Meta Tags  -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-    <meta name="description" content="Package finder, libraries and frameworks">
-    <meta name="keywords" content="NPM, CDN, Libraries, Package, Frameworks">
+    <meta name="description" content="Administrador de partidas de futebol">
+    <meta name="keywords" content="Futebol, Futsal, Jogo, Marcador, Admin">
     <meta name="author" content="Wenderson E. Junior">
     <title>Peladinha S.I</title>
 
@@ -57,20 +57,29 @@
             <div id="titulo"></div>
             <div id="corpo">
                 <div id="jogadores" class="container" hidden="hidden">
+                    <div class="input-field col s8">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nomeJogador" type="text" class="validate" required="required">
+                        <label for="nomeJogador">Nome</label>
+                    </div>
+                    <div class="center-align col s4">
+                        <a class="waves-effect waves-light btn" id="adicionaNovoJogador"><i class="material-icons left">add</i>Adicionar Jogador</a>
+                    </div>
+                    <div class="separador"></div>
                     <div id="todosJogadores" class="row"></div>
                     <div class="separador"></div>
                     <div class="center-align">
                         <a class="waves-effect waves-light btn" id="confirma"><i class="material-icons left">check</i>Confirmar Escalação</a>
-                    </div> 
+                    </div>
                 </div>
                 <div id="marcador" class="container-marcador" hidden="hidden">
                     <div class="chronometer center-align">
                         <div id="screen">00 : 00 : 00 : 00</div>
                         <div class="buttons">
-                            <button class="emerald" onclick="start()">START &#9658;</button>
-                            <button class="emerald" onclick="stop()">STOP &#8718;</button>
-                            <button class="emerald" onclick="resume()" >RESU. &#8634;</button>
-                            <button class="emerald" onclick="reset()">RESET &#8635;</button>
+                            <button class="emerald" onclick="start()"> <i class="material-icons">play_circle_outline</i></button>
+                            <button class="emerald" onclick="stop()"> <i class="material-icons">stop</i></button>
+                            <button class="emerald" onclick="resume()"> <i class="material-icons">redo</i></button>
+                            <button class="emerald" onclick="reset()"><i class="material-icons">replay</i></button>
                         </div>
                     </div>
                     <div class="separador"></div>
@@ -117,7 +126,7 @@
     <script src="js/pagamento.js"></script>
     <script src="js/forms.js"></script>
     <script>
-        $( document ).ready(montaJogadores());
+        $(document).ready(montaJogadores());
     </script>
 </body>
 

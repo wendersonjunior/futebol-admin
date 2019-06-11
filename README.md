@@ -1,19 +1,19 @@
-# LibFinder
+# Futebol-admin
 
-Application developed for querying frameworks, libraries and packages. Designed by [Studio Sol](https://www.studiosol.com.br/) and coded by [Wenderson Jr.](https://github.com/wendej).
+Aplicação desenvolvida para gerenciar sado de gols, assistências, defesas, pagamento e o tempo das partidas de futebol. Projetado, desenhado e desenvolvido por[Wenderson Jr.](https://github.com/wendej).
 
-This application uses the api [API](https://cdnjs.com/api) from CDNJS.
+Esta aplicação é SPA (Single Page Application).
 
 ![Imagem](img/screenshot/screen-1.png)
 ![Imagem2](img/screenshot/screen-2.png)
 ![Imagem3](img/screenshot/screen-3.png)
 
 
-## Content
+## Conteudo
 
-- [Folder and file structure](#folder-and-file-structure)
+- [Estrutura de Pastas](#estrutura-de-pastas)
 
-## Folder and file structure
+## Estrutura de Pastas
 
 ```
 ./
@@ -26,10 +26,15 @@ This application uses the api [API](https://cdnjs.com/api) from CDNJS.
 |
 ├── js/                                
 |   |── materialize.js
+|   |── init.js
+|   |── forms.js
+|   |── jogadores.js
+|   |── marcador.js
+|   |── pagamento.js
 │   └── scripts.js
 |
 └── img/                                
-    |── shortcut.png
+    |── logo.png
     └── screenshot/
         |── screen-1.png
         |── screen-2.png

@@ -1,189 +1,194 @@
 body {
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 #header {
-  height: 250px;
+    height: 250px;
 }
 
 #banner {
-  height: 150px;
-  background-color: rgb(91, 161, 59);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    height: 150px;
+    background-color: rgb(91, 161, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .logo {
-  height: 150px;
-  width: 170px;
-  display: flex;
-  align-items: center;
-  justify-content: center
+    height: 150px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-#logo-sub-menu{
-  background-color: rgb(91, 161, 59); 
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center
+#logo-sub-menu {
+    background-color: rgb(91, 161, 59);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-#alinhamento-logo-sub-menu{
-  height: auto;
+#alinhamento-logo-sub-menu {
+    height: auto;
 }
 
 #menu {
-  height: 50px;
-  background-color: #373737;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    height: 50px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .checkbox {
-  margin-top: 10px;
-}
-.disabled {
-  pointer-events:none;
-  opacity:0.6;
+    margin-top: 10px;
 }
 
-.separador{
-  margin: 15px 0px;
-  border: 1px solid #EEEEEE;
-  width: 100%;
-  display: block;
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.separador {
+    margin: 15px 0px;
+    border: 1px solid #EEEEEE;
+    width: 100%;
+    display: block;
 }
 
 #titulo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 38px;
-  line-height: 45px;
-  font-weight: bold; 
-  margin-top: 10px;
-  text-align: center;
-  color: #373737;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: #373737;
 }
 
 #sub-titulo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 26px;
-  line-height: 30px;
-  font-weight: bold; 
-  margin-bottom: 20px;
-  text-align: center;
-  color: #373737;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #373737;
 }
 
 .item-menu {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 19px;
-  height: 50px;
-  display: grid;
-  align-items: center;
-  text-align: center;
-  width: 120px;
-  color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    color: #FFFFFF;
 }
 
 #corpo {
-  margin-top: 20px;
-  margin-bottom: 100px;
-}
-.ativo {
-  background-color:rgb(42, 80, 25)
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
 
-.item-menu:hover{
-    background-color:rgb(91, 161, 59);
+.ativo {
+    background-color: rgb(42, 80, 25)
+}
+
+.item-menu:hover {
+    background-color: rgb(91, 161, 59);
     cursor: pointer;
 }
 
-.botao:hover{
-  cursor: pointer;
+.botao:hover {
+    cursor: pointer;
 }
 
 #footer {
-  background: #F0F0F0;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  width: 100%;
+    background: #F0F0F0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
 }
 
 #footer-text {
-  color: #9B9B9B;
-  font-weight: bold;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  height: 18px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    color: #9B9B9B;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    height: 18px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.centraliza{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+.centraliza {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .container-marcador {
-  margin: 0 auto;
-  max-width: 1280px;
-  width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
 }
+
 .alinhamento-calculadora {
-  display: flex;
-  align-items: center;
-  justify-content: center
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 #screen {
-	font-family: Calibri,Arial;
-	font-weight: 300;
-	font-size: 45px;
-	color: gray;
-	letter-spacing: 3px;
+    font-family: Calibri, Arial;
+    font-weight: 300;
+    font-size: 30px;
+    color: gray;
+    letter-spacing: 3px;
 }
+
 .buttons {
-height: 50px;
-display: flex;
-align-items: center;
-justify-content: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .emerald {
-	border-radius: 5px;
-	width: 80px;
-
-	height: 30px;
-	margin: 5px;
-	border: 1px solid #384049;
-  color: white;
-  cursor: pointer;
-  font-family: Calibri,Arial;
-  font-weight: 300;
-  outline: none;
-  text-shadow: 0px -1px 1px black;
-  text-transform: uppercase;
-  transition: all 0.2s ease;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid #384049;
+    color: white;
+    cursor: pointer;
+    font-family: Calibri, Arial;
+    font-weight: 300;
+    outline: none;
+    text-shadow: 0px -1px 1px black;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
 }
 
-.emerald{
-   background-image: linear-gradient(#3aad02,#2c6f05);
+.emerald {
+    background-image: linear-gradient(#3aad02, #2c6f05);
 }
-.emerald:active{
-   background-image: linear-gradient(#2c6f05,#3aad02);
-   text-shadow:      0px 1px 1px black;
+
+.emerald:active {
+    background-image: linear-gradient(#2c6f05, #3aad02);
+    text-shadow: 0px 1px 1px black;
 }
