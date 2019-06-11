@@ -1,6 +1,6 @@
 # Futebol-admin
 
-Aplicação desenvolvida para gerenciar sado de gols, assistências, defesas, pagamento e o tempo das partidas de futebol. Projetado, desenhado e desenvolvido por[Wenderson Jr.](https://github.com/wendej).
+Aplicação desenvolvida para gerenciar saldo de gols, assistências, defesas, pagamento e o tempo das partidas de futebol. Projetado, desenhado e desenvolvido por[Wenderson Jr.](https://github.com/wendej).
 
 Esta aplicação é SPA (Single Page Application).
 
