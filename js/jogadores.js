@@ -1,6 +1,7 @@
 var jogadoresSelecionados = [];
 
 function montaJogadores() {
+    ativaItemMenu('jogadores');
     $('#titulo').text('Jogadores');
     $('#marcador').hide();
     $('#pagamento').hide();
@@ -24,6 +25,9 @@ $('#confirma').click(function () {
     $('.marcador').removeClass('disabled');
     $('.pagamento').removeClass('disabled');
     montaTabelaMarcacao(jogadoresSelecionados);
-    $('#confirma').attr('disabled');
+    montaTabelaPagamento(jogadoresSelecionados);
+    $('.jogadores').addClass('disabled');
+    ativaItemMenu('marcador');
+    montaMarcador();
 });
 

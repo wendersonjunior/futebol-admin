@@ -3008,7 +3008,7 @@ tr {
 }
 
 td, th {
-  padding: 15px 5px;
+  padding: 5px 2px;
   display: table-cell;
   text-align: left;
   vertical-align: middle;
@@ -4495,7 +4495,7 @@ html {
 
 @media only screen and (min-width: 0) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
